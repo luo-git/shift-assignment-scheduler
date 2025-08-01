@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-table": "^8.21.3",
     "clsx": "^2.1.1",
     "daisyui": "^5.0.46",
+    "dayjs": "^1.11.13",
     "jotai": "^2.12.5",
     "next": "15.4.2",
     "react": "19.1.0",

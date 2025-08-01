@@ -1,16 +1,17 @@
 import { EnumFromObject } from "./utils";
 
 export const NURSE_TITLE = {
-  ENROLLED_NURSE: "Enrolled Nurse",
-  SENIOR_ENROLLED_NURSE: "Senior Enrolled Nurse",
-  PRINCIPLE_ENROLLED_NURSE: "Principal Enrolled Nurse",
-  STAFF_NURSE: "Staff Nurse",
-  SENIOR_STAFF_NURSE: "Senior Staff Nurse",
-  ASSISTANT_NURSE_CLINICIAN: "Assistant Nurse Clinician",
-  NURSE_MANAGER: "Nurse Manager",
-  NURSE_EDUCATOR: "Nurse Educator",
-  NURSE_CASE_CORDINATOR: "Nurse Case Coordinator",
-  NURSE_CLINICIAN: "Nurse Clinician",
+  ENROLLED_NURSE: "EN",
+  SENIOR_ENROLLED_NURSE: "SEN",
+  PRINCIPLE_ENROLLED_NURSE: "PEN",
+  STAFF_NURSE: "SN",
+  SENIOR_STAFF_NURSE: "SSN",
+  ASSISTANT_NURSE_CLINICIAN: "ANC",
+  NURSE_MANAGER: "NM",
+  SENIOR_NURSE_MANAGER: "SNM",
+  NURSE_CLINICIAN: "NC",
+  PATIENT_CARE_ASSISTANT: "PCA",
+  SENIOR_PATIENT_CARE_ASSISTANT: "SPCA",
 } as const;
 
 export type NurseTitle = EnumFromObject<typeof NURSE_TITLE>;
