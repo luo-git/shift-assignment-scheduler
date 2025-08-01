@@ -43,7 +43,7 @@ export function AddStaffModalButton() {
   return (
     <>
       <button
-        className="btn btn-primary"
+        className="btn btn-sm btn-primary md:btn-md"
         onClick={() =>
           (
             document.getElementById("my_modal_1") as HTMLDialogElement | null

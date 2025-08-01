@@ -54,7 +54,7 @@ export function AddAssignmentModalButton() {
   return (
     <>
       <button
-        className="btn btn-primary"
+        className="btn btn-sm btn-primary md:btn-md"
         onClick={() =>
           (
             document.getElementById(

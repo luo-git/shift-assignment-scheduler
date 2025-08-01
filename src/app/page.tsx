@@ -35,14 +35,14 @@ export default function Home() {
         </div>
         <AssignmentList />
 
-        <div className="flex justify-between items-start mt-10">
+        <div className="flex justify-between items-center mt-10">
           <h1 className="text-4xl">Schedule</h1>
           <div className="space-x-2">
-            <button className="btn btn-primary" onClick={regenerateSchedule}>
+            <button className="btn btn-sm btn-primary md:btn-md" onClick={regenerateSchedule}>
               Generate Schedule
             </button>
             <button
-              className="btn btn-secondary"
+              className="btn btn-secondary btn-sm md:btn-md"
               onClick={() => alert("Export functionality is not implemented.")}
             >
               Export Excel

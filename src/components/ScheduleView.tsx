@@ -50,7 +50,7 @@ export default function ScheduleView(props: ScheduleViewProps) {
   });
 
   return (
-    <div className="card bg-base-100 shadow-sm">
+    <div className="card bg-base-100 shadow-sm overflow-x-auto">
       {/* Tanstack table */}
       <table className="table">
         <thead>
