@@ -35,7 +35,7 @@ export default function Home() {
         </div>
         <AssignmentList />
 
-        <div className="flex justify-between items-center mt-10">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mt-10">
           <h1 className="text-4xl">Schedule</h1>
           <div className="space-x-2">
             <button className="btn btn-sm btn-primary md:btn-md" onClick={regenerateSchedule}>
